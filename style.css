@@ -38,5 +38,6 @@ a {
 }
 
 p {
+    text-indent: 3rem;
     font-size: 20px;
 }
