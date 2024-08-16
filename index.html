@@ -8,24 +8,41 @@
     <script href="script.js" defer></script>
 </head>
 <body>
-    <nav>
-         
+    <nav class="navbar">
+         <ul>
+            <li><a id="codeblog-logo">CodeBlog</a></li>
+            <li><a>Front-end</a></li>
+            <li><a>Back-end</a></li>
+            <li><a>Fullstack</a></li>
+            <li><a>GameDev</a></li>
+            <li><a>DevOps</a></li>
+            <li id="cs-link"><a>Computer<br>Science</a></li>
+            <li id="data-link"><a>Data Science</a></li>
+            <li><a>About</a></li>
+            <li id="navbar-legal"><a>Legal</a></li>
+         </ul>
     </nav>
-    <h1 id="article-title">Front-end Entry Job Roadmap</h1>
+    <h1 id="article-title">CodeBlog Roadmaps</h1>
         <section>
-            <h2>Table of Contents:</h2>
-            <ol id="navbar-list">
-                <li class="navbar-item"><a href="#first-section" id="html-navbar-link">HTML</a></li>
-                <li class="navbar-item"><a href="#second-section" id="css-navbar-link">CSS</a></li>
-                <li class="navbar-item"><a href="#third-section" id="javascript-navbar-link">Javascript</a></li>
-                <li class="navbar-item"><a href="#fourth-section" id="frameworks-navbar-link">Frameworks</a></li>
-                <li class="navbar-item"><a href="#fifth-section" id="data-stc-navbar-link">Data Structures</a></li>
-                <li class="navbar-item"><a href="#sixth-section" id="ending-navbar-link">The End</a></li>
-            </ol>      
+            <ol class="table-list">
+                <li id="table-title"><h2>Table of Contents:</h2>
+                    <ol id="inside-title-list">
+                        <li><a href="#first-section" class="table-list-items">HTML</a></li>
+                        <li><a href="#second-section" class="table-list-items">CSS</a></li>
+                        <li><a href="#third-section" class="table-list-items">Javascript</a></li>
+                        <li><a href="#fourth-section" class="table-list-items">Frameworks</a></li>
+                        <li><a href="#fifth-section" class="table-list-items">Data Structures</a></li>
+                        <li><a href="#sixth-section" class="table-list-items">The End</a></li>
+                    </ol>
+                    
+                </li>
+            </ol>
+
         </section>
         <article>
+            <h2 id="front-end-title">Front-end Entry Job Roadmap</h2>
             <section id="first-section">
-                <h2>HTML, the foundational building block</h2>
+                <h3>HTML, the foundational building block</h3>
                 <p id="first-paragraph">As you start your coding journey you will face
                     a lot of subjects, some are mandatory, some are not, it
                     depends on your goals. But, the first step is of utmost importance.
@@ -41,10 +58,10 @@
                     Which bring us to the next topic: CSS. </p>
             </section>
             <section id="second-section">
-                <h2>CSS, adding style to a webpage</h2>
+                <h3>CSS, adding style to a webpage</h3>
                 <p>Without CSS webpages would be boring and colourless. CSS stands
-                    for Cascading Style Sheets and it is used for adding style to webpages.
-                    By creating rulesets and pairs of attribute and values. Furthermore,
+                    for Cascading Style Sheets and it is used for adding style to webpages 
+                    by creating rulesets and pairs of attribute and values. Furthermore,
                     with CSS you can change the way pages look, moving elements of HTML
                      from one place to the other, adding animations and transitions and giving the
                       webpage a fun look so it can be shown to the user. By the way: I'm sorry, but
@@ -57,26 +74,35 @@
                 </p>
             </section>
             <section id="third-section">
-                <h2>Javascript, that's where the fun actually begins</h2>
+                <h3>Javascript, that's where the fun actually begins</h3>
                 <p>Javascript is a programming language. While learning it you will face other challenges, such as 
                     programming logic, which encompasses: loops, conditionals, variables, functions, data types, classes
                      and other "interesting" stuff (it is only interesting if you like computers). 
                      Then you will learn how to do a lot of stuff with it, such as importing modules 
-                     (you gotta learn what modules are first), doing nice mathematical stuff, creating stuff 
-                     no one is gonna use (unless they really like computers and Mathematics), and then 
-                     after all this you are going to learn actual coding stuff, which bring us to the next topic:
-                      Frameworks.
+                     (you've got to learn what modules are first), doing nice mathematical stuff, creating stuff 
+                     no one is gonna use (unless they really like computers and Mathematics).
+                </p>
+                <p>  Javascript is the most used programming language on the internet, specially in the front-end
+                    of the websites, without it, most of the websites would lose it's functionalities, withou Javascript
+                    all the pages would be static, static webpages resemble Wikipedia articles because they have content,
+                    however it is not very interactive.
+                </p>
+                <p>
+                    After leraning the coding basics, programming logic and how to apply all of this to make an
+                    interactive webpage, testing and asynchronous Javascript you are going to learn actual coding
+                     stuff, which bring us to the next topic: Frameworks.                   
                 </p>
             </section>
             <section id="fourth-section">
-                <h2>Frameworks, lots of them!</h2>
+                <h3>Frameworks, lots of them!</h3>
                 <p> There are a lot of frameworks for a lot of different purposes, but they all have something in common:
-                    They make coding easy, maintanable and cut a lot of unnecessary repetition. You will find many frameworks
-                    on your way to get a Front-end job. Make good use of them, you're gonna use it all the time.
+                    They make coding easy, maintanable, cut a lot of unnecessary repetition and save a lot of time.
+                     You will find many frameworks on your way to get a Front-end job. Make good use of them,
+                      you're gonna use them all the time.
                 </p>
             </section>
             <section id="fifth-section">
-                <h2>Data Structures, beware!</h2>
+                <h3>Data Structures, beware!</h3>
                 <p>Data Structures is the most complex of all, it involves mathematics and uses a programming language, such
                     as JavaScript or Python, it is an important subject to study beacause it can make your website be fast or
                     slow, it can make the website have problems or not. The correct use of Data Structures makes 
@@ -85,15 +111,21 @@
                 </p>
             </section>
             <section id="sixth-section">
-                <h2>The End</h2>
+                <h3>The End</h3>
                 <p>I hope you liked this brief summary of the main subjects someone has to study in order to get a front-end 
                     entry-job level. It can be a bit overwhelming to read this and try to image what it all means, but having
-                    a map of what you gotta study is important so you do not get confused. Thank you very much!
+                    a map of what you've got to study is important so you do not get confused. Thank you very much!
                 </p>
             </section>
         </article>
-        
-    
-    
 </body>
+<footer>
+    <ul>
+        <li><a>Author: Murilo Assis</a></li>
+        <li><a>Professional Email: muriloaprofissional@outlook.com</a></li>
+        <li>This website sole purpose is for code demonstration</li>
+        <li>This code is under Under GLPV3 Licence</li>
+        <li>2024</li>
+    </ul>
+</footer>
 </html>
