@@ -116,9 +116,9 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
-p, h1, h3, ol, ul {
+p, h3, ol, ul {
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 h1, h2, h3 {
     margin-top: 4%;
@@ -128,22 +128,8 @@ h1, h2, h3 {
     color: hsl(0, 100%, 20%);
     
 }
-@media only screen and (max-width: 500px) {
-    body {
-        p, h1, h3, ol, ul, #front-end-title{
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-    }
-}
-@media only screen and (min-width: 500px) and (max-width:900px) {
-    body {
-        p, h1, h3, ol, ul, #front-end-title{
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-    }
-}
+
+
 a {
     color: #660000;
     
@@ -165,6 +151,7 @@ a {
     list-style-type: upper-latin;
 }
 #article-title {
+    margin-left: 10%;
     margin-top: 3.5%;
     margin-bottom: 3.5%;
     
