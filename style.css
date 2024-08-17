@@ -92,7 +92,6 @@ body {
     background-image: linear-gradient(100deg, #ACE1AF,  	#E5E4E2);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -134,11 +133,11 @@ p {
 }
 footer ul:not(#main-page-footer) {
     margin-bottom: 0;
-    margin-top: 5%;
+    margin-top: 4.5%;
     margin-left: 0;
     margin-right: 0;
-    padding-top: 1.5%;
-    padding-bottom: 2%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     background-color: lightblue;
     border-top: solid 0.7px #660000;
     list-style-type: none;
@@ -157,5 +156,6 @@ footer ul a:active {
 #main-page-footer {
 
     margin-bottom: 0;
-    padding-bottom: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
