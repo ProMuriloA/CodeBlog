@@ -132,7 +132,9 @@ p {
     font-size: 20px;
 }
 footer ul {
+    margin-bottom: 0;
     padding-top: 1.5%;
+    padding-bottom: 2%;
     background-color: lightblue;
     border-top: solid 0.7px #660000;
     margin: 0;
