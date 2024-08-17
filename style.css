@@ -177,7 +177,6 @@ footer ul {
 }
 footer {
     margin-left: 0;
-    padding-left: 1%;
     padding-right: 1%;
     padding-top: 2.5%;
     padding-bottom: 0;
@@ -190,6 +189,11 @@ footer {
 }
 #frontend-page-footer {
     margin-top: 3%;
+}
+footer ul li {
+    color: #002244;
+    font-size: 15px;
+    font: weight 450;
 }
 footer ul a {
     color: blue;
