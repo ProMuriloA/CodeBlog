@@ -3,10 +3,10 @@
 }
 nav {
     
-
     position: fixed;
     margin-left: 4%;
     margin-right: 4%;
+    
     justify-self: center;
     width: 90%;
     height: fit-content;
@@ -33,9 +33,12 @@ nav ul li:not(#navbar-legal, #cs-link, #data-link) {
     width: 9.3%;
     text-align: center;
     border-right: solid 0.5px #660000;
+    padding-bottom: 0.7%;
+    font-size: 22px;
 }
 #cs-link {
     float: left;
+    font-size: 15px;
     width: 9.3%;
     text-align: center;
     border-right: solid 0.5px #660000;
@@ -47,9 +50,13 @@ nav ul li:not(#navbar-legal, #cs-link, #data-link) {
     text-align: center;
     border-right: solid 0.5px #660000;
     font-size: 15.3px;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
     font-weight: bold;
 }
 #navbar-legal {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     float: left;
     width: 8%;
     text-align: center;
@@ -70,9 +77,16 @@ nav ul li a {
 }
 #codeblog-logo {
     color: #002244;
-
-    font-size: 17px;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 23px;
     font-weight: bolder;
+}
+#table-frontend-link {
+    text-decoration: none;
+}
+#table-frontend-section {
+    margin-top: 5%;
 }
 body {
     background-image: linear-gradient(100deg, #ACE1AF,  	#E5E4E2);
