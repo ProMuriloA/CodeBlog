@@ -151,3 +151,7 @@ footer ul a:hover {
 footer ul a:active {
     color: blueviolet;
 }
+#main-page-footer {
+    margin-bottom: 0;
+    padding-bottom: 3%;
+}
