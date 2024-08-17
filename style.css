@@ -15,8 +15,8 @@ nav {
 }
 nav ul {
 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
     justify-content: space-around;
     align-content: space-around;
     width: 100%;
@@ -136,11 +136,20 @@ p {
     font-size: 20px;
     text-align: justify;
 }
-#frontend-page-foooter {
-
+footer ul {
+    list-style-type: none;
+}
+footer {
+    margin-left: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 4.5%;
+    text-align: start;
     background-color: lightblue;
     border-top: solid 0.7px #660000;
-    list-style-type: none;
+
 
 }
 footer ul a {
