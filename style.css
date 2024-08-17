@@ -132,13 +132,15 @@ p {
     font-size: 20px;
     text-align: justify;
 }
-footer ul {
+footer ul:not(#main-page-footer) {
     margin-bottom: 0;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
     padding-top: 1.5%;
     padding-bottom: 2%;
     background-color: lightblue;
     border-top: solid 0.7px #660000;
-    margin: 0;
     list-style-type: none;
 
 }
@@ -153,6 +155,7 @@ footer ul a:active {
     color: blueviolet;
 }
 #main-page-footer {
+
     margin-bottom: 0;
     padding-bottom: 3%;
 }
