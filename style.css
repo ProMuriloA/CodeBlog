@@ -119,6 +119,8 @@ h1, h2, h3 {
     margin-bottom: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
+    color: hsl(0, 100%, 20%);
+    
 }
 @media only screen and (max-width: 500px) {
     body {
@@ -161,7 +163,17 @@ a {
     margin-bottom: 3.5%;
     
 }
-
+#front-end-sections-list {
+    list-style-type: upper-latin ;
+    margin-left: 10%;
+    
+}
+#front-end-sections-list h3 {
+    margin-left: 1%;
+}
+#front-end-sections-list p{
+    margin-left: 0;
+}
 p {
     text-indent: 3rem;
     font-size: 20px;
