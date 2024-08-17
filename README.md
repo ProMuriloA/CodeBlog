@@ -1,4 +1,4 @@
-# CodeBlog
+# Murilo Code Blog
 This is a repository for a front-end development project.
 CodeBlog is a front-end project used to practice Front-End development and demonstrate code.
 ## Front-End Entry-Job Roadmap
