@@ -130,6 +130,7 @@ a {
 p {
     text-indent: 3rem;
     font-size: 20px;
+    text-align: justify;
 }
 footer ul {
     margin-bottom: 0;
