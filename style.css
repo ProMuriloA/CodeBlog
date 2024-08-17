@@ -91,6 +91,9 @@ nav ul li{
 #table-title {
     margin-left: 10%;
 }
+#list-inside-table-contents {
+    list-style-type: upper-latin;
+}
 #table-frontend-link {
     text-decoration: none;
 }
