@@ -42,7 +42,9 @@ nav ul li{
     border-right: solid 0.5px #660000;
     font-size: 15px;
 }
-
+#cs-navbar {
+    font-size: 11px;
+}
 #navbar-legal {
     border-right: none;
 }
