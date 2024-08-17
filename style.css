@@ -87,6 +87,9 @@ nav ul li{
         }
     }
 }
+#table-title {
+    margin-left: 10%;
+}
 #table-frontend-link {
     text-decoration: none;
 }
