@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script href="script.js" defer></script>
 </head>
-<body>
-    <nav class="navbar">
-         <ul>
-            <li><a id="codeblog-logo" href="./index.html">CodeBlog</a></li>
-            <li><a href="./front-end-roadmap.html">Front-end</a></li>
-            <li><a>Back-end</a></li>
-            <li><a>Fullstack</a></li>
-            <li><a>GameDev</a></li>
-            <li><a>DevOps</a></li>
-            <li id="cs-link"><a>Computer<br>Science</a></li>
-            <li id="data-link"><a>Data Science</a></li>
-            <li><a>About</a></li>
-            <li id="navbar-legal"><a>Legal</a></li>
+<body class="container-fluid">
+    <nav class="navbar container-fluid">
+         <ul class="row">
+            <li class="column" id="codeblog-logo-list-item"><a id="codeblog-logo" href="./index.html">CodeBlog</a></li>
+            <li class="column"><a href="./front-end-roadmap.html">Front-end</a></li>
+            <li class="column"><a>Back-end</a></li>
+            <li class="column"><a>Fullstack</a></li>
+            <li class="column"><a>GameDev</a></li>
+            <li class="column"><a>DevOps</a></li>
+            <li class="column"><a>Computer<br>Science</a></li>
+            <li class="column"><a>Data Science</a></li>
+            <li class="column" id="navbar-about"><a>About</a></li>
+            <li class="column" id="navbar-legal"><a>Legal</a></li>
          </ul>
     </nav>
     <h1 id="article-title">CodeBlog Roadmaps</h1>
-    <ol class="table-list">
+    <ol class="table-list row">
         <li id="table-title"><h2>Table of Contents:</h2>
             <ol>
                 <li><a id="table-frontend-link" href="./front-end-roadmap.html">Front-end</a></li>
@@ -38,7 +38,7 @@
         </li>
     </ol>
 </body>
-<footer id="main-page-footer">
+<footer id="main-page-footer row">
     <ul>
         <li><a>Author: Murilo Assis</a></li>
         <li><a>Professional Email: muriloaprofissional@outlook.com</a></li>
