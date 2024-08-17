@@ -102,8 +102,14 @@ body {
     flex-wrap: wrap;
 }
 p, h1, h3, ol, ul, #front-end-title{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1, h2, h3 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 @media only screen and (max-width: 500px) {
     body {
@@ -139,7 +145,7 @@ a {
 
 #inside-title-list {
     margin-left: 0;
-    list-style-type: lower-latin;
+    list-style-type: upper-latin;
 }
 #article-title {
     margin-top: 3.5%;
