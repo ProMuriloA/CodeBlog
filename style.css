@@ -90,8 +90,14 @@ nav ul li{
         }
     }
 }
+#front-end-page-title {
+    margin-left: 0;
+}
 #table-title {
     margin-left: 10%;
+}
+#tb-contents-title {
+    margin-left: 0;
 }
 #list-inside-table-contents {
     list-style-type: upper-latin;
@@ -110,7 +116,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
-p, h1, h3, ol, ul, #front-end-title{
+p, h1, h3, ol, ul {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -164,7 +170,7 @@ a {
     
 }
 #front-end-sections-list {
-    list-style-type: upper-latin ;
+    list-style-type: upper-alpha ;
     margin-left: 10%;
     
 }
