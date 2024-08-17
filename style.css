@@ -105,7 +105,22 @@ p, h1, h3, ol, ul, #front-end-title{
     margin-left: 15%;
     margin-right: 15%;
 }
-
+@media only screen and (max-width: 500px) {
+    body {
+        p, h1, h3, ol, ul, #front-end-title{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+}
+@media only screen and (min-width: 500px) and (max-width:900px) {
+    body {
+        p, h1, h3, ol, ul, #front-end-title{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+}
 a {
     color: #660000;
     
@@ -128,7 +143,7 @@ a {
 }
 #article-title {
     margin-top: 3.5%;
-    margin-bottom: 2%;
+    margin-bottom: 3.5%;
     
 }
 
