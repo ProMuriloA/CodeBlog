@@ -135,6 +135,7 @@ body {
 
 p {
     width: auto;
+    margin-right: 10%;
     text-indent: 3rem;
     font-size: 20px;
     text-align: justify;
@@ -184,7 +185,6 @@ a {
 #front-end-sections-list {
     list-style-type: upper-alpha ;
     margin-left: 10%;
-    margin-right: 10%;
     
 }
 #front-end-sections-list h3 {
