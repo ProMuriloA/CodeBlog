@@ -54,41 +54,47 @@ nav ul li{
 }
 @media only screen and (max-width: 500px) {
     body {
-        nav {
-    
-            position: fixed;
-            margin-left: 4%;
-            margin-right: 4%;
-            justify-self: center;
-            width: 90%;
-            height: fit-content;
-            background-color: lightblue;
-            border-radius: 200px;
-            border: solid 0.5px #660000;
-        }
-        nav ul {
-
-            list-style-type: none;
-            font-weight: bold;
-        }
-        nav ul li {
-            border: none;
-        }
-        nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
-            display: none;
-        }
+    margin-left: 0;
+    margin-right: 0;
     }
+    nav {
+
+        position: fixed;
+        margin-left: 4%;
+        margin-right: 4%;
+        justify-self: center;
+        width: 90%;
+        height: fit-content;
+        background-color: lightblue;
+        border-radius: 200px;
+        border: solid 0.5px #660000;
+    }
+    nav ul {
+
+        list-style-type: none;
+        font-weight: bold;
+    }
+    nav ul li {
+        border: none;
+    }
+    nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
+        display: none;
+    }
+    
     
 }
 @media only screen and (min-width: 500px) and (max-width:900px) {
-    body {
-        nav ul li {
-            border: none;
-        }
-        nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
-            display: none;
-        }
+    body{
+        margin-left: 0;
+        margin-right: 0;
     }
+    nav ul li {
+        border: none;
+    }
+    nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
+        display: none;
+    }
+    
 }
 #front-end-page-title {
     margin-left: 0;
@@ -185,7 +191,6 @@ footer {
     background-color: lightblue;
     border-top: solid 0.7px #660000;
 
-
 }
 #frontend-page-footer {
     margin-top: 3%;
@@ -204,4 +209,11 @@ footer ul a:hover {
 }
 footer ul a:active {
     color: blueviolet;
+}
+@media only screen and (min-height: 800px ) {
+    footer {
+        margin-top: 63%;
+        margin-bottom: 0;
+    }
+    
 }
