@@ -237,6 +237,7 @@ footer ul a {
 }
 li a:hover {
     color: darkred;
+    text-decoration: none;
 }
 li a:active {
     color: blueviolet;
