@@ -61,7 +61,7 @@ nav ul li{
         margin-left: 0;
         margin-right: 0;
         justify-self: space-around;
-        justify-items: center;
+        justify-items: space-around;
         background-color: lightblue;
         border-radius: 200px;
         border: solid 0.5px #660000;
@@ -91,7 +91,7 @@ nav ul li{
     }
     nav {
         justify-self: space-around;
-        justify-items: center;
+        justify-items: space-around;
     }
     nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
         display: none;
@@ -99,13 +99,19 @@ nav ul li{
     
 }
 @media only screen and (min-width: 700px) and (max-width:1000px) {
-
+    nav {
+        justify-self: space-around;
+        justify-items: space-around;
+    }
     nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
         display: none;
     }
 }
 @media only screen and (min-width: 1000px) and (max-width:1300px) {
-
+    nav {
+        justify-self: space-around;
+        justify-items: space-around;
+    }
     nav ul li {
         font-size: 10px;
 
