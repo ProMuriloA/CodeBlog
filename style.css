@@ -134,7 +134,7 @@ body {
 }
 
 p {
-    margin-right: 10%;
+    width: auto;
     text-indent: 3rem;
     font-size: 20px;
     text-align: justify;
