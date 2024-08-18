@@ -52,28 +52,30 @@ nav ul li{
 }
 @media only screen and (max-width: 500px) {
     body {
-    margin-left: 0;
-    margin-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
     nav {
 
         position: fixed;
-        margin-left: 4%;
-        margin-right: 4%;
-        justify-self: center;
-        width: fit-content;
-        height: fit-content;
+        margin-left: 0;
+        margin-right: 0;
+        justify-self: space-around;
         background-color: lightblue;
         border-radius: 200px;
         border: solid 0.5px #660000;
+        height: 0.3%;
+
     }
     nav ul {
 
         list-style-type: none;
         font-weight: bold;
+        
     }
     nav ul li {
-        border: none;
+        font-size: 15px;
+        
     }
     nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
         display: none;
@@ -81,19 +83,31 @@ nav ul li{
     
     
 }
-@media only screen and (min-width: 500px) and (max-width:900px) {
+@media only screen and (min-width: 500px) and (max-width:700px) {
     body{
         margin-left: 0;
         margin-right: 0;
     }
-    nav ul li {
-        border: none;
-    }
+
     nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
         display: none;
     }
     
 }
+@media only screen and (min-width: 700px) and (max-width:1000px) {
+
+    nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
+        display: none;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:1300px) {
+
+    nav ul li {
+        font-size: 10px;
+
+    }
+}
+
 #front-end-page-title {
     margin-left: 0;
 }
