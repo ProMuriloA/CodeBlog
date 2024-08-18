@@ -148,7 +148,7 @@ article {
 p {
 
     text-indent: 3rem;
-    font-size: 20px;
+    font-size: 21px;
     text-align: justify;
 }
 
@@ -181,7 +181,7 @@ a {
 
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 21px;
 }
 .table-list {
     margin-left: 15%;
@@ -235,10 +235,10 @@ footer ul a {
     color: blue;
     text-decoration: none;
 }
-footer ul a:hover {
-    color: red;
+li a:hover {
+    color: darkred;
 }
-footer ul a:active {
+li a:active {
     color: blueviolet;
 }
 @media only screen and (min-height: 800px ) {
