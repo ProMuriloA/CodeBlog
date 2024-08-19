@@ -1,20 +1,20 @@
 #page-title {
     display: none;
 }
+
 nav {
-    
-    position: fixed;
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 0.7%;
     justify-self: center;
-    
-    height: fit-content;
+    justify-items: center;
+    justify-content: center;
+    max-height: fit-content;
     background-color: lightblue;
     border-radius: 200px;
     border: solid 0.5px #660000;
 }
-nav ul {
+#navbar ul {
 
     margin-top: 0%;
     margin-bottom: 0%;
@@ -25,22 +25,26 @@ nav ul {
     padding-bottom: 0;
     height: fit-content;
     list-style-type: none;
-    font-size: large;
-    font-weight: bold;
+
 }
-nav ul li{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+#navbar ul li:not(#codeblog-logo, #ds-navbar){
     float: left;
     height: 100%;
     width: 9.3%;
-    justify-self: center;
+    justify-self: space-around;
     align-self: center;
     text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+#navbar ul li:not(#navbar-legal){
     border-right: solid 0.5px #660000;
-    font-size: 15px;
+
+}
+
+#ds-navbar {
+    font-size: 12px;
+    font-weight: 700;
 }
 
 #navbar-legal {
@@ -49,6 +53,17 @@ nav ul li{
 #codeblog-logo {
     color: #002244;
     font-weight: bolder;
+    font-size: 21px;
+}
+#codeblog-logo-list-item {
+    border-right: none;
+    float: left;
+    height: 100%;
+    width: 9.3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2%;
+
 }
 @media only screen and (max-width: 500px) {
     body {
@@ -59,7 +74,7 @@ nav ul li{
         margin-left: 0;
         margin-right: 0;
     }
-    nav {
+    #navbar {
 
         position: fixed;
         margin-left: 0;
@@ -72,19 +87,17 @@ nav ul li{
         height: 0.3%;
 
     }
-    nav ul {
+    #navbar ul {
 
         list-style-type: none;
         font-weight: bold;
         
     }
-    nav ul li {
+    #navbar ul li {
         font-size: 15px;
         
     }
-    nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
-        display: none;
-    }
+
     
     
 }
@@ -97,12 +110,9 @@ nav ul li{
         margin-left: 0;
         margin-right: 0;
     }
-    nav {
+    #navbar {
         justify-self: space-around;
         justify-items: space-around;
-    }
-    nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
-        display: none;
     }
     
 }
@@ -115,13 +125,11 @@ nav ul li{
         margin-left: 0;
         margin-right: 0;
     }
-    nav {
+    #navbar {
         justify-self: space-around;
         justify-items: space-around;
     }
-    nav ul li:not(#codeblog-logo-list-item, #navbar-legal, #navbar-about){
-        display: none;
-    }
+
 }
 @media only screen and (min-width: 1000px) and (max-width:1300px) {
     body{
@@ -132,11 +140,11 @@ nav ul li{
         margin-left: 0;
         margin-right: 0;
     }
-    nav {
+    #navbar {
         justify-self: space-around;
         justify-items: space-around;
     }
-    nav ul li {
+    #navbar ul li {
         font-size: 10px;
 
     }
