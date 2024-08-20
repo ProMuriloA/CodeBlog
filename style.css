@@ -37,10 +37,7 @@ nav {
     font-size: 13px;
     font-weight: bold;
 }
-#navbar ul li:not(#navbar-legal){
-    border-right: solid 0.5px #660000;
 
-}
 
 #ds-navbar {
     font-size: 12px;
@@ -50,104 +47,11 @@ nav {
 #navbar-legal {
     border-right: none;
 }
-#codeblog-logo {
+#codeblog-logo-brand {
     color: #002244;
     font-weight: bolder;
     font-size: 21px;
-}
-#codeblog-logo-list-item {
     border-right: none;
-    float: left;
-    height: 100%;
-    width: 9.3%;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-right: 2%;
-
-}
-@media only screen and (max-width: 500px) {
-    body {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    article {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #navbar {
-
-        position: fixed;
-        margin-left: 0;
-        margin-right: 0;
-        justify-self: space-around;
-        justify-items: space-around;
-        background-color: lightblue;
-        border-radius: 200px;
-        border: solid 0.5px #660000;
-        height: 0.3%;
-
-    }
-    #navbar ul {
-
-        list-style-type: none;
-        font-weight: bold;
-        
-    }
-    #navbar ul li {
-        font-size: 15px;
-        
-    }
-
-    
-    
-}
-@media only screen and (min-width: 500px) and (max-width:700px) {
-    body{
-        margin-left: 0;
-        margin-right: 0;
-    }
-    article {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #navbar {
-        justify-self: space-around;
-        justify-items: space-around;
-    }
-    
-}
-@media only screen and (min-width: 700px) and (max-width:1000px) {
-    body{
-        margin-left: 0;
-        margin-right: 0;
-    }
-    article {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #navbar {
-        justify-self: space-around;
-        justify-items: space-around;
-    }
-
-}
-@media only screen and (min-width: 1000px) and (max-width:1300px) {
-    body{
-        margin-left: 0;
-        margin-right: 0;
-    }
-    article {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #navbar {
-        justify-self: space-around;
-        justify-items: space-around;
-    }
-    #navbar ul li {
-        font-size: 10px;
-
-    }
 }
 
 #front-end-page-title {
@@ -245,7 +149,6 @@ footer ul {
 }
 footer {
     margin-left: 0;
-    
     padding-top: 2.5%;
     padding-bottom: 0;
     margin-bottom: 0;
